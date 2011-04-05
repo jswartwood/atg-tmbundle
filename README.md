@@ -1,5 +1,5 @@
 #ATG Textmate Bundle
-A Textmate library for ATG related snippets/functionality.  For now, it is just _dsp_ tag snippets, but please, contribute.
+A Textmate library for ATG related snippets/functionality.  For now, it is just **dsp** tag snippets, but please, contribute.
 
 ---
 
