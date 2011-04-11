@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;dsp:include src="/${1}"${2:&gt;
+	&lt;dsp:param name="${3:NAME}" ${4:value}="${5:VALUE}"/&gt;
+&lt;/dsp:include}&gt;</string>
+	<key>name</key>
+	<string>dsp:include</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>dsp</string>
+	<key>uuid</key>
+	<string>EF3E7735-23FC-4BB4-AE12-EC96A3CAF172</string>
+</dict>
+</plist>
