@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;dsp:include src="/${1}"${2:&gt;
+	<string>&lt;dsp:include src="/$1"${2:&gt;
 	&lt;dsp:param name="${3:NAME}" ${4:value}="${5:VALUE}"/&gt;
 &lt;/dsp:include}&gt;</string>
 	<key>name</key>

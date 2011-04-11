@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;dsp:param name="${1:$TM_SELECTED_TEXT}" ${2:value}="${3:VALUE}"/&gt;</string>
+	<string>&lt;dsp:param name="${1:NAME}" ${2:value}="${3:$TM_SELECTED_TEXT:VALUE}"/&gt;</string>
 	<key>name</key>
 	<string>dsp:param</string>
 	<key>scope</key>
