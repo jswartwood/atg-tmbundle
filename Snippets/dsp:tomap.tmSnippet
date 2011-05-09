@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;dsp:valueof ${1:param}="${2:$TM_SELECTED_TEXT}"/&gt;</string>
+	<string>&lt;dsp:tomap var="$1" value="\${${2:$TM_SELECTED_TEXT}}"${3: recursive="true"}/&gt;</string>
 	<key>name</key>
-	<string>dsp:valueof</string>
+	<string>dsp:tomap</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
 	<string>dsp</string>
 	<key>uuid</key>
-	<string>C18B8EA8-ECC9-4674-A483-FAA7D7D7230A</string>
+	<string>4A349C7F-9947-4380-9CC5-F0441A0C1403</string>
 </dict>
 </plist>

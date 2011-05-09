@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;dsp:getvalueof var="$1" ${2:bean}="${3:$TM_SELECTED_TEXT:VALUE}"/&gt;</string>
+	<string>&lt;dsp:getvalueof var="$1" ${2:bean}="${3:$TM_SELECTED_TEXT}"/&gt;</string>
 	<key>name</key>
 	<string>dsp:getvalueof</string>
 	<key>scope</key>

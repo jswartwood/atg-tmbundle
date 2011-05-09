@@ -3,14 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;dsp:valueof ${1:param}="${2:$TM_SELECTED_TEXT}"/&gt;</string>
+	<string>&lt;dsp:droplet name="$1"&gt;
+	&lt;dsp:param name="$2" value="$3"/&gt;
+	&lt;dsp:oparam name="$4"&gt;
+		${0:$TM_SELECTED_TEXT}
+	&lt;/dsp:oparam&gt;
+&lt;/dsp:droplet&gt;</string>
 	<key>name</key>
-	<string>dsp:valueof</string>
+	<string>dsp:droplet</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
 	<string>dsp</string>
 	<key>uuid</key>
-	<string>C18B8EA8-ECC9-4674-A483-FAA7D7D7230A</string>
+	<string>E9A7F419-3F58-49E0-98E7-087F31646A9F</string>
 </dict>
 </plist>
